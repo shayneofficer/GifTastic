@@ -1,0 +1,50 @@
+body {
+    background-color: powderblue;
+}
+
+.navbar {
+    background-color: powderblue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn {
+    margin: 5px 5px 0px 0px;
+    padding: 2px;
+    background-color: #008080;
+}
+
+.btn:hover {
+    background-color: #176666
+}
+
+section {
+    margin: 15px;
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#pokemon-input {
+    margin-top: 5px;
+}
+
+.pokemon-div {
+   float: left;
+   margin-right: 15px;
+   margin-bottom: 15px;
+   font-weight: bold;
+}
+
+.pokemon-div > p {
+    margin-bottom: 7px;
+}
